@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", arial, "Ubuntu", "Cantarell", "Fira Sans", sans-serif;
+  list-style-type: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* .main-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  background: #555;
+  display: flex;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+} */
+
+.left-container {
+  position: relative;
+  width: 30%;
+  height: 100%;
+}
+.status-container{
+  display: flex;
+  background-color: #1E262C;
+  height: 100%;
+  padding: 0px 15px;
+}
+.myStatus{
+  position: relative;
+  top: 50px;
+  display: flex;
+  align-content: center;
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 35px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.417);
+}
+.user-profile-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.user-status{
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+
+/* Here the styling for Contact list */
+
+ .contact-list{
+   overflow-x:scroll;
+   /* height: 100%; */
+
+  
+}
+.person-chatbox{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 0px 10px;
+  background-color: rgb(30,38,44);
+  
+}
+.person-img-details{
+  width: 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+.person-img-details img{
+    outline-offset: 5px;
+    outline: 2px dashed rgb(21,66,63);
+}
+.person-name{
+  width: 40vw;
+  border: none;
+}
+.person-name-details{
+  font-size:16px;
+  color: rgb(255,255,255);
+  font-weight: 400;
+}
+
+.status-update{
+  font-size:13px;
+  color: rgb(255,255,255,0.55);
+  font-weight: 400;
+}
+
+
+::-webkit-scrollbar{
+  width: 0px;
+}
+
+.recent-para{
+  color: gray;
+  background-color: rgb(30,38,44);
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  height: 8vh;
+  width: 100%;
+
+}
+
+/* Here the Styling of Default-Right-container */
+
+.right-container{
+    position: relative;
+    width: 70%;
+    height: 100%;
+    flex: 70%;
+    background-color: rgb(11,20,26);
+}
+
+.cross{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: gray;
+  cursor: pointer;
+}
+
+.right-statusContainer{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    background-color: rgb(11,20,26);
+}

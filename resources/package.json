@@ -1,0 +1,88 @@
+let users = [{
+    username : "Sindhu",
+    mobile : 1234567890,
+    password : "abcd@123",
+  },
+  {
+    username : "Bestie",
+    mobile : 9336103597,
+    password : "Bestie@123",
+  }]
+  
+  
+  let userChat = [{
+    username : "sindhu",
+    mobile : 9336103597,
+    chat : [{
+      contact : "bestie",
+      mobile : 123456780,
+      messages : [{
+        sender : "bestie",
+        message : "Hello",
+        time : "12:03",
+        seen : false
+        
+      },
+      {
+        sender : "kalyni",
+        message : "Hello",
+        time : "12:03",
+        seen : false
+    },
+    {
+        sender : "kalyni",
+        message : "Hello",
+        time : "12:03",
+        seen : false
+    }]
+  },
+  {
+    username : "kalyni",
+    mobile : 9336103597,
+    chat : [{
+      contact : "Sindhu",
+      mobile : 123456780,
+      messages : [{
+        sender : "bestie",
+        
+        message : "Hello",
+        time : "12:03",
+        seen : false
+        
+      },
+      {
+        sender : "kalyni",
+        message : "Hello",
+        time : "12:03",
+        seen : false
+    },
+    {
+        sender : "kalyni;",
+        message : "Hello",
+        time : "12:03",
+        seen : false
+    },
+    {
+      contact : "sahithi",
+      mobile : 46578954,
+      messages : [{
+        sender : "sahithi",
+        message : "Hello bro",
+        time : "12:07",
+        seen : false
+        
+      },
+      {
+        sender : "kalyni",
+        message : "Hello",
+        time : "12:03",
+        seen : false
+    },
+    {
+        sender : "kalyni",
+        message : "Hello",
+        time : "12:03",
+        seen : false
+    }]
+  }]
+  
